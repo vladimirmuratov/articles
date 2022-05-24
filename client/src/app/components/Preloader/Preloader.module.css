@@ -1,0 +1,28 @@
+.preloader_container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--middleGray);
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader {
+    width: 10rem;
+    height: 10rem;
+    border: 5px dashed var(--darkGray);
+    /*border-top-color: transparent;*/
+    border-radius: 50%;
+    animation: loadingRotate 3s infinite linear;
+}
+
+@keyframes loadingRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

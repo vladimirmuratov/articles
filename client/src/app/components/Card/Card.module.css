@@ -1,0 +1,27 @@
+.card_container {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card_title {
+    font-size: 1.8rem;
+}
+
+.card_description {
+    font-size: 1.5rem;
+}
+
+.card_link {
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: var(--lightGray);
+    text-align: center;
+    color: var(--darkGray);
+    font-size: 1.5rem;
+}

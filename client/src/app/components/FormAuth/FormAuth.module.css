@@ -1,0 +1,48 @@
+.form_container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form_title {
+    font-size: 3.6rem;
+}
+
+.form_subtitle {
+    font-size: 2.4rem;
+    color: red;
+}
+
+.form_input {
+    width: 80%;
+    padding: 2rem;
+    border: 2px solid var(--middleGray);
+    border-radius: 2rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.button {
+    padding: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background-color: var(--darkGray);
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.error {
+    color: red;
+    font-size: 1.5rem;
+}

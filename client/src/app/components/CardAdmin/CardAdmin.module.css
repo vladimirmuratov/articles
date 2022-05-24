@@ -1,0 +1,21 @@
+.cardAdmin_container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: var(--middleGray);
+    font-size: 1.5rem;
+}
+
+.deleteIcon {
+    border: 1px solid var(--darkGray);
+    border-radius: 50%;
+    padding: 0.3rem;
+    background-color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+}

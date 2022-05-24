@@ -1,0 +1,53 @@
+.adminPage_wrapper {
+    border: 1px solid red;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.adminPage_createArticleLink {
+    position: absolute;
+    right: 13rem;
+    top: 0.8rem;
+
+    border: 1px solid var(--darkGray);
+    padding: 1rem 2rem;
+    background-color: var(--middleGray);
+
+    color: var(--darkGray);
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+}
+
+.adminPage_container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    width: 80%;
+    height: 80%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+    position: relative;
+}
+
+.adminPage_title {
+    font-size: 3.6rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 426px) {
+    .adminPage_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

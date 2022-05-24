@@ -1,0 +1,6 @@
+.App {
+  background-color: var(--lightGray);
+  height: 100vh;
+  /*width: 1024px;*/
+  margin: 0 auto;
+}
